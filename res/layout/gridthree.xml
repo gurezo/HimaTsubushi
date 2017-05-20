@@ -1,133 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-		xmlns:android="http://schemas.android.com/apk/res/android"
-		android:orientation="vertical"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:background="#FFFF00"
-    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFF00"
+    android:orientation="vertical">
 
-	<TableLayout
-	    xmlns:android="http://schemas.android.com/apk/res/android"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content">
-	    <!-- １行目 -->
-		<TableRow>
-			<Button
-				android:id="@+id/grid11"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-			<Button
-				android:id="@+id/grid12"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-			<Button
-				android:id="@+id/grid13"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-		</TableRow>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- １行目 -->
+        <TableRow>
 
-	    <!-- ２行目 -->
-		<TableRow>
-			<Button
-				android:id="@+id/grid21"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-			<Button
-				android:id="@+id/grid22"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-			<Button
-				android:id="@+id/grid23"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-		</TableRow>
+            <Button
+                android:id="@+id/grid11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
 
-	    <!-- ３行目 -->
-		<TableRow>
-			<Button
-				android:id="@+id/grid31"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-			<Button
-				android:id="@+id/grid32"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-			<Button
-				android:id="@+id/grid33"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/hima_pannel">
-			</Button>
-		</TableRow>
-	</TableLayout>
+            <Button
+                android:id="@+id/grid12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
 
-	<TableLayout
-	    xmlns:android="http://schemas.android.com/apk/res/android"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content">
-		<TableRow>
-			<!-- 空白行 -->
-			<TextView android:text="　　　"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			/>
-		</TableRow>
-		<TableRow>
-			<!-- 空白行 -->
-			<TextView android:text="　　　"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			/>
-		</TableRow>
-		<TableRow>
-			<!-- 空白行 -->
-			<TextView android:text="　　　"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			/>
-		</TableRow>
+            <Button
+                android:id="@+id/grid13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
+        </TableRow>
 
-		<TableRow>
-		    <!-- 遊戯開始ボタン -->
-			<Button
-				android:id="@+id/game_start_three"
-				android:text="遊戯開始"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content">
-			</Button>
+        <!-- ２行目 -->
+        <TableRow>
 
-		    <!-- 遊戯終了ボタン -->
-			<Button
-				android:id="@+id/game_end_three"
-				android:text="遊戯終了"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content">
-			</Button>
+            <Button
+                android:id="@+id/grid21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
 
-		    <!-- 戻　　るボタン -->
-			<Button
-				android:id="@+id/back_three"
-				android:text="戻　　る"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content">
-			</Button>
-		</TableRow>
-	</TableLayout>
+            <Button
+                android:id="@+id/grid22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
+
+            <Button
+                android:id="@+id/grid23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
+        </TableRow>
+
+        <!-- ３行目 -->
+        <TableRow>
+
+            <Button
+                android:id="@+id/grid31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
+
+            <Button
+                android:id="@+id/grid32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
+
+            <Button
+                android:id="@+id/grid33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hima_pannel"></Button>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <!-- 空白行 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="　　　" />
+        </TableRow>
+
+        <TableRow>
+            <!-- 空白行 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="　　　" />
+        </TableRow>
+
+        <TableRow>
+            <!-- 空白行 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="　　　" />
+        </TableRow>
+
+        <TableRow>
+            <!-- 遊戯開始ボタン -->
+            <Button
+                android:id="@+id/game_start_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="遊戯開始"></Button>
+
+            <!-- 遊戯終了ボタン -->
+            <Button
+                android:id="@+id/game_end_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="遊戯終了"></Button>
+
+            <!-- 戻　　るボタン -->
+            <Button
+                android:id="@+id/back_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="戻　　る"></Button>
+        </TableRow>
+    </TableLayout>
 </LinearLayout>
