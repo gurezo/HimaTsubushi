@@ -1,2 +1,2 @@
-# HimaTsubushi
-this is Waste of time application
+# HimatsubushiHT5
+暇潰しアプリ（Html5版）
