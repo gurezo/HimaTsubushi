@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<!-- バイブ振動選択 -->
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+				android:id="@+id/vibe_tilte"
+				android:text="バイブ振動　"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+			<CheckBox
+				android:id="@+id/vibe"
+				android:text="有り　　"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+		</TableRow>
+
+		<!-- ＢＧＭ音選択 -->
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+				android:id="@+id/bgm_tilte"
+				android:text="ＢＧＭ音　"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+			<RadioGroup
+				android:id="@+id/bgm_group"
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<RadioButton
+					android:id="@+id/bgm_on"
+					android:text="Ｏｎ　　"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+				<RadioButton
+					android:id="@+id/bgm_off"
+					android:text="Ｏｆｆ　"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+			</RadioGroup>
+		</TableRow>
+
+		<TableRow>
+			<!-- 空白行 -->
+			<TextView android:text="　　　"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			/>
+		</TableRow>
+
+ 		<!-- マス目選択 -->
+ 		<!--
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+				android:id="@+id/grid_tilte"
+				android:text="マス目　"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+			<RadioGroup
+				android:id="@+id/grid_group"
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<RadioButton
+					android:id="@+id/grid_three"
+					android:text="３マス　"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+				<RadioButton
+					android:id="@+id/grid_five"
+					android:text="５マス　"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+			</RadioGroup>
+		</TableRow>
+ 		 -->
+	</TableLayout>
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<!-- 保存ボタン -->
+		<Button
+			android:id="@+id/save_button"
+			android:text="保　存"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<!-- 初期化ボタン -->
+		<Button
+			android:id="@+id/init_button"
+			android:text="初期化"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<!-- 戻るボタン -->
+		<Button
+			android:id="@+id/back_button"
+			android:text="戻　る"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="jp.ic.lifewood.himatsubushi">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <application android:icon="@drawable/icon_72_72" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".Opening"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GridThree"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GridFive"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="jp.ic.lifewood.himatsubushi.Config"
+                  android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+</manifest>
